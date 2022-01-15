@@ -24,34 +24,24 @@ function addCategoryToMenu(title, items) {
   categoryItems = [];
 }
 
-addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
-addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
-addItemsToCategory('Pizza', 'Lorem ipsum dolor sit, amet consectetur ', '16.99');
-addItemsToCategory('Xachapuri', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sit numquam', '4.56')
-
+for (let i = 0; i < 4; i++) {
+  addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
+}
 addCategoryToMenu('Salads', categoryItems)
 
-
-addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
-addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
-addItemsToCategory('Pizza', 'Lorem ipsum dolor sit, amet consectetur ', '16.99');
-addItemsToCategory('Xachapuri', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sit numquam', '4.56')
-addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
-addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
-
+for (let i = 0; i < 6; i++) {
+  addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
+}
 addCategoryToMenu('Drinks', categoryItems)
 
-addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
-addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
-addItemsToCategory('Pizza', 'Lorem ipsum dolor sit, amet consectetur ', '16.99');
-addItemsToCategory('Xachapuri', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sit numquam', '4.56')
-
+for (let i = 0; i < 4; i++) {
+  addItemsToCategory('Pizza', 'Lorem ipsum dolor sit, amet consectetur ', '16.99');
+}
 addCategoryToMenu('Salads', categoryItems)
 
-addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
-addItemsToCategory('Cezar', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ', '2.00');
-addItemsToCategory('Pizza', 'Lorem ipsum dolor sit, amet consectetur ', '16.99');
-
+for (let i = 0; i < 3; i++) {
+  addItemsToCategory('Khinkali', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit', '5.00');
+}
 addCategoryToMenu('Salads', categoryItems)
 
 function buildMenu() {
